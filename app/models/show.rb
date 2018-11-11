@@ -4,5 +4,5 @@ class Show < ActiveRecord::Base
   
   #
   # can build an associated network (FAILED - 5)
-  belongs_to :network
+  belongs_to :network # now it passes
 end
